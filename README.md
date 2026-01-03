@@ -1,5 +1,7 @@
 # csp-student-life-scheduling
 
+![CI](https://github.com/tibonigabriele/csp-student-life-scheduling/actions/workflows/ci.yml/badge.svg)
+
 A small **CSP-inspired** weekly schedule builder for “student life” activities.
 
 The original project started as a single Jupyter notebook; this repository turns it into a clean, reproducible

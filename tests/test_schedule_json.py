@@ -4,7 +4,6 @@ import re
 
 from csp_student_life.schedule import build_schedule, schedule_to_jsonable
 
-
 _TIME_RE = re.compile(r"^\d{2}:\d{2}$")
 
 

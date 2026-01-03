@@ -11,7 +11,11 @@ def main(argv: list[str] | None = None) -> int:
         description="Build a weekly student-life schedule (5-minute slots) and export it as JSON.",
     )
     parser.add_argument("--out", "-o", default="schedule.json", help="Output JSON path.")
-    parser.add_argument("--minify", action="store_true", help="Write minified JSON (no indentation).")
+    parser.add_argument(
+        "--minify",
+        action="store_true",
+        help="Write minified JSON (no indentation).",
+    )
     args = parser.parse_args(argv)
 
     flat = build_schedule()

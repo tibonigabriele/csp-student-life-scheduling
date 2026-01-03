@@ -15,7 +15,10 @@ def slot_to_time(slot: int, day_start_slot: int, extra_minutes: int = 0) -> str:
     return f"{hours:02d}:{mins:02d}"
 
 
-def print_time_intervals(var_data: dict[str, dict[str, list[tuple[int, int]]]], variables: dict[str, str]) -> None:
+def print_time_intervals(
+    var_data: dict[str, dict[str, list[tuple[int, int]]]],
+    variables: dict[str, str],
+) -> None:
     """Pretty-print time intervals for variables (debug helper, kept from the notebook)."""
     for var, days in var_data.items():
         print(f"{var}: {variables.get(var, var)}:")

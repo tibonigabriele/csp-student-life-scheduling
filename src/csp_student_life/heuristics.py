@@ -28,8 +28,14 @@ def assign_slots_in_blocks(ctx: AssignmentContext, day: str, needed_slots: int) 
                 current_block_start = slot
             current_block_count += 1
 
-            if current_block_count in possible_blocks and (assigned_slots + current_block_count <= needed_slots):
-                for s in range(current_block_start, current_block_start + current_block_count):
+            if (
+                current_block_count in possible_blocks
+                and assigned_slots + current_block_count <= needed_slots
+            ):
+                for s in range(
+                        current_block_start,
+                        current_block_start + current_block_count,
+                    ):
                     ctx.schedule[s] = ctx.variables["V10"]
                     ctx.remove_slot(s)
                 assigned_slots += current_block_count
@@ -42,7 +48,12 @@ def assign_slots_in_blocks(ctx: AssignmentContext, day: str, needed_slots: int) 
     return assigned_slots
 
 
-def assign_weekend_slots_limited(ctx: AssignmentContext, day: str, possible_blocks: list[int], max_slots_per_day: int) -> int:
+def assign_weekend_slots_limited(
+    ctx: AssignmentContext,
+    day: str,
+    possible_blocks: list[int],
+    max_slots_per_day: int,
+) -> int:
     day_start_slot = ctx.daily_domains[day][0]
     assigned_slots = 0
     current_block_start = None
@@ -56,8 +67,14 @@ def assign_weekend_slots_limited(ctx: AssignmentContext, day: str, possible_bloc
                 current_block_start = slot
             current_block_count += 1
 
-            if current_block_count in possible_blocks and (assigned_slots + current_block_count <= max_slots_per_day):
-                for s in range(current_block_start, current_block_start + current_block_count):
+            if (
+                current_block_count in possible_blocks
+                and assigned_slots + current_block_count <= max_slots_per_day
+            ):
+                for s in range(
+                        current_block_start,
+                        current_block_start + current_block_count,
+                    ):
                     ctx.schedule[s] = ctx.variables["V10"]
                     ctx.remove_slot(s)
                 assigned_slots += current_block_count
@@ -74,7 +91,7 @@ def assign_workout_slots(ctx: AssignmentContext) -> None:
     possible_blocks = 9  # 45 minutes
     days_assigned = 0
 
-    for day, intervals in ctx.slots["V11"].items():
+    for _day, intervals in ctx.slots["V11"].items():
         if days_assigned >= 3:
             break
 
@@ -89,7 +106,10 @@ def assign_workout_slots(ctx: AssignmentContext) -> None:
                     current_block_count += 1
 
                     if current_block_count == possible_blocks:
-                        for s in range(current_block_start, current_block_start + current_block_count):
+                        for s in range(
+                        current_block_start,
+                        current_block_start + current_block_count,
+                    ):
                             ctx.schedule[s] = ctx.variables["V11"]
                             ctx.remove_slot(s)
                         days_assigned += 1
@@ -118,7 +138,10 @@ def assign_shopping_slots(ctx: AssignmentContext) -> None:
                     current_block_count += 1
 
                     if current_block_count == possible_blocks:
-                        for s in range(current_block_start, current_block_start + current_block_count):
+                        for s in range(
+                        current_block_start,
+                        current_block_start + current_block_count,
+                    ):
                             ctx.schedule[s] = ctx.variables["V12"]
                             ctx.remove_slot(s)
                         assigned = True
@@ -150,7 +173,10 @@ def assign_cleaning_slots(ctx: AssignmentContext) -> None:
                     current_block_count += 1
 
                     if current_block_count == possible_blocks:
-                        for s in range(current_block_start, current_block_start + current_block_count):
+                        for s in range(
+                        current_block_start,
+                        current_block_start + current_block_count,
+                    ):
                             ctx.schedule[s] = ctx.variables["V13"]
                             ctx.remove_slot(s)
                         assigned = True

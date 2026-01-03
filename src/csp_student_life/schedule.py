@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 from typing import Any
 
-from .data import DAILY_DOMAINS, SLOTS, VARIABLES, NSLOTS
+from .data import DAILY_DOMAINS, NSLOTS, SLOTS, VARIABLES
 from .domain import AssignmentContext, slot_to_time
 from .heuristics import (
     assign_cleaning_slots,
@@ -90,14 +90,26 @@ def schedule_to_jsonable(flat_schedule: list[str]) -> dict[str, list[dict[str, A
                 if current_activity is not None and activity_start is not None:
                     start_time = slot_to_time(activity_start, slots_range[0])
                     end_time = slot_to_time(slot_index - 1, slots_range[0], extra_minutes=5)
-                    out[day].append({"start": start_time, "end": end_time, "activity": current_activity})
+                    out[day].append(
+                        {
+                            "start": start_time,
+                            "end": end_time,
+                            "activity": current_activity,
+                        }
+                    )
                 current_activity = slot_activity
                 activity_start = slot_index
 
         if current_activity is not None and activity_start is not None:
             start_time = slot_to_time(activity_start, slots_range[0])
             end_time = slot_to_time(slots_range[-1], slots_range[0], extra_minutes=5)
-            out[day].append({"start": start_time, "end": end_time, "activity": current_activity})
+            out[day].append(
+                        {
+                            "start": start_time,
+                            "end": end_time,
+                            "activity": current_activity,
+                        }
+                    )
 
     return out
 

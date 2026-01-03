@@ -1,0 +1,536 @@
+{
+  "Friday": [
+    {
+      "start": "00:00",
+      "end": "06:30",
+      "activity": "Sleep"
+    },
+    {
+      "start": "06:30",
+      "end": "08:25",
+      "activity": "Breakfast + Morning Routine"
+    },
+    {
+      "start": "08:25",
+      "end": "09:55",
+      "activity": "Study Time"
+    },
+    {
+      "start": "09:55",
+      "end": "10:40",
+      "activity": "Workout"
+    },
+    {
+      "start": "10:40",
+      "end": "11:05",
+      "activity": "Personal Time"
+    },
+    {
+      "start": "11:05",
+      "end": "14:05",
+      "activity": "Lunch"
+    },
+    {
+      "start": "14:05",
+      "end": "17:05",
+      "activity": "Study Time"
+    },
+    {
+      "start": "17:05",
+      "end": "18:05",
+      "activity": "Shopping"
+    },
+    {
+      "start": "18:05",
+      "end": "18:15",
+      "activity": "Personal Time"
+    },
+    {
+      "start": "18:15",
+      "end": "19:15",
+      "activity": "Dinner"
+    },
+    {
+      "start": "19:15",
+      "end": "20:45",
+      "activity": "Study Time"
+    },
+    {
+      "start": "20:45",
+      "end": "23:00",
+      "activity": "Personal Time"
+    },
+    {
+      "start": "23:00",
+      "end": "24:00",
+      "activity": "Sleep"
+    }
+  ],
+  "Monday": [
+    {
+      "start": "00:00",
+      "end": "06:30",
+      "activity": "Sleep"
+    },
+    {
+      "start": "06:30",
+      "end": "08:25",
+      "activity": "Breakfast + Morning Routine"
+    },
+    {
+      "start": "08:25",
+      "end": "08:40",
+      "activity": "Journey"
+    },
+    {
+      "start": "08:40",
+      "end": "10:10",
+      "activity": "Big Data Computing Class"
+    },
+    {
+      "start": "10:10",
+      "end": "10:25",
+      "activity": "Journey"
+    },
+    {
+      "start": "10:25",
+      "end": "11:05",
+      "activity": "Personal Time"
+    },
+    {
+      "start": "11:05",
+      "end": "14:05",
+      "activity": "Lunch"
+    },
+    {
+      "start": "14:05",
+      "end": "14:15",
+      "activity": "Journey"
+    },
+    {
+      "start": "14:15",
+      "end": "15:45",
+      "activity": "Study Time"
+    },
+    {
+      "start": "15:45",
+      "end": "16:15",
+      "activity": "Personal Time"
+    },
+    {
+      "start": "16:15",
+      "end": "16:30",
+      "activity": "Journey"
+    },
+    {
+      "start": "16:30",
+      "end": "18:00",
+      "activity": "Computer Vision Class"
+    },
+    {
+      "start": "18:00",
+      "end": "18:15",
+      "activity": "Journey"
+    },
+    {
+      "start": "18:15",
+      "end": "19:15",
+      "activity": "Dinner"
+    },
+    {
+      "start": "19:15",
+      "end": "20:45",
+      "activity": "Study Time"
+    },
+    {
+      "start": "20:45",
+      "end": "21:30",
+      "activity": "Workout"
+    },
+    {
+      "start": "21:30",
+      "end": "23:00",
+      "activity": "Personal Time"
+    },
+    {
+      "start": "23:00",
+      "end": "24:00",
+      "activity": "Sleep"
+    }
+  ],
+  "Saturday": [
+    {
+      "start": "00:00",
+      "end": "06:30",
+      "activity": "Sleep"
+    },
+    {
+      "start": "06:30",
+      "end": "08:25",
+      "activity": "Breakfast + Morning Routine"
+    },
+    {
+      "start": "08:25",
+      "end": "09:55",
+      "activity": "Study Time"
+    },
+    {
+      "start": "09:55",
+      "end": "10:40",
+      "activity": "Workout"
+    },
+    {
+      "start": "10:40",
+      "end": "11:05",
+      "activity": "Personal Time"
+    },
+    {
+      "start": "11:05",
+      "end": "14:05",
+      "activity": "Lunch"
+    },
+    {
+      "start": "14:05",
+      "end": "15:35",
+      "activity": "Study Time"
+    },
+    {
+      "start": "15:35",
+      "end": "16:00",
+      "activity": "Personal Time"
+    },
+    {
+      "start": "16:00",
+      "end": "17:00",
+      "activity": "Cleaning"
+    },
+    {
+      "start": "17:00",
+      "end": "18:15",
+      "activity": "Personal Time"
+    },
+    {
+      "start": "18:15",
+      "end": "19:15",
+      "activity": "Dinner"
+    },
+    {
+      "start": "19:15",
+      "end": "23:00",
+      "activity": "Personal Time"
+    },
+    {
+      "start": "23:00",
+      "end": "24:00",
+      "activity": "Sleep"
+    }
+  ],
+  "Sunday": [
+    {
+      "start": "00:00",
+      "end": "06:30",
+      "activity": "Sleep"
+    },
+    {
+      "start": "06:30",
+      "end": "08:25",
+      "activity": "Breakfast + Morning Routine"
+    },
+    {
+      "start": "08:25",
+      "end": "09:55",
+      "activity": "Study Time"
+    },
+    {
+      "start": "09:55",
+      "end": "11:05",
+      "activity": "Personal Time"
+    },
+    {
+      "start": "11:05",
+      "end": "14:05",
+      "activity": "Lunch"
+    },
+    {
+      "start": "14:05",
+      "end": "15:35",
+      "activity": "Study Time"
+    },
+    {
+      "start": "15:35",
+      "end": "18:15",
+      "activity": "Personal Time"
+    },
+    {
+      "start": "18:15",
+      "end": "19:15",
+      "activity": "Dinner"
+    },
+    {
+      "start": "19:15",
+      "end": "23:00",
+      "activity": "Personal Time"
+    },
+    {
+      "start": "23:00",
+      "end": "24:00",
+      "activity": "Sleep"
+    }
+  ],
+  "Thursday": [
+    {
+      "start": "00:00",
+      "end": "06:30",
+      "activity": "Sleep"
+    },
+    {
+      "start": "06:30",
+      "end": "08:25",
+      "activity": "Breakfast + Morning Routine"
+    },
+    {
+      "start": "08:25",
+      "end": "08:40",
+      "activity": "Journey"
+    },
+    {
+      "start": "08:40",
+      "end": "10:10",
+      "activity": "Computer Vision Class"
+    },
+    {
+      "start": "10:10",
+      "end": "10:30",
+      "activity": "Personal Time"
+    },
+    {
+      "start": "10:30",
+      "end": "11:05",
+      "activity": "Deep Learning Class"
+    },
+    {
+      "start": "11:05",
+      "end": "14:05",
+      "activity": "Lunch"
+    },
+    {
+      "start": "14:05",
+      "end": "14:15",
+      "activity": "Personal Time"
+    },
+    {
+      "start": "14:15",
+      "end": "14:30",
+      "activity": "Journey"
+    },
+    {
+      "start": "14:30",
+      "end": "16:00",
+      "activity": "Artificial Intelligence Class"
+    },
+    {
+      "start": "16:00",
+      "end": "16:15",
+      "activity": "Journey"
+    },
+    {
+      "start": "16:15",
+      "end": "17:45",
+      "activity": "Study Time"
+    },
+    {
+      "start": "17:45",
+      "end": "18:15",
+      "activity": "Personal Time"
+    },
+    {
+      "start": "18:15",
+      "end": "19:15",
+      "activity": "Dinner"
+    },
+    {
+      "start": "19:15",
+      "end": "20:45",
+      "activity": "Study Time"
+    },
+    {
+      "start": "20:45",
+      "end": "23:00",
+      "activity": "Personal Time"
+    },
+    {
+      "start": "23:00",
+      "end": "24:00",
+      "activity": "Sleep"
+    }
+  ],
+  "Tuesday": [
+    {
+      "start": "00:00",
+      "end": "06:30",
+      "activity": "Sleep"
+    },
+    {
+      "start": "06:30",
+      "end": "08:25",
+      "activity": "Breakfast + Morning Routine"
+    },
+    {
+      "start": "08:25",
+      "end": "08:40",
+      "activity": "Journey"
+    },
+    {
+      "start": "08:40",
+      "end": "10:10",
+      "activity": "Big Data Computing Class"
+    },
+    {
+      "start": "10:10",
+      "end": "10:25",
+      "activity": "Journey"
+    },
+    {
+      "start": "10:25",
+      "end": "11:05",
+      "activity": "Personal Time"
+    },
+    {
+      "start": "11:05",
+      "end": "14:05",
+      "activity": "Lunch"
+    },
+    {
+      "start": "14:05",
+      "end": "14:15",
+      "activity": "Personal Time"
+    },
+    {
+      "start": "14:15",
+      "end": "14:30",
+      "activity": "Journey"
+    },
+    {
+      "start": "14:30",
+      "end": "16:00",
+      "activity": "Artificial Intelligence Class"
+    },
+    {
+      "start": "16:00",
+      "end": "16:15",
+      "activity": "Journey"
+    },
+    {
+      "start": "16:15",
+      "end": "17:45",
+      "activity": "Study Time"
+    },
+    {
+      "start": "17:45",
+      "end": "18:15",
+      "activity": "Personal Time"
+    },
+    {
+      "start": "18:15",
+      "end": "19:15",
+      "activity": "Dinner"
+    },
+    {
+      "start": "19:15",
+      "end": "20:45",
+      "activity": "Study Time"
+    },
+    {
+      "start": "20:45",
+      "end": "23:00",
+      "activity": "Personal Time"
+    },
+    {
+      "start": "23:00",
+      "end": "24:00",
+      "activity": "Sleep"
+    }
+  ],
+  "Wednesday": [
+    {
+      "start": "00:00",
+      "end": "06:30",
+      "activity": "Sleep"
+    },
+    {
+      "start": "06:30",
+      "end": "08:25",
+      "activity": "Breakfast + Morning Routine"
+    },
+    {
+      "start": "08:25",
+      "end": "09:55",
+      "activity": "Study Time"
+    },
+    {
+      "start": "09:55",
+      "end": "10:15",
+      "activity": "Personal Time"
+    },
+    {
+      "start": "10:15",
+      "end": "10:30",
+      "activity": "Journey"
+    },
+    {
+      "start": "10:30",
+      "end": "11:05",
+      "activity": "Computer Vision Class"
+    },
+    {
+      "start": "11:05",
+      "end": "14:05",
+      "activity": "Lunch"
+    },
+    {
+      "start": "14:05",
+      "end": "14:15",
+      "activity": "Personal Time"
+    },
+    {
+      "start": "14:15",
+      "end": "14:30",
+      "activity": "Journey"
+    },
+    {
+      "start": "14:30",
+      "end": "16:00",
+      "activity": "Deep Learning Class"
+    },
+    {
+      "start": "16:00",
+      "end": "16:15",
+      "activity": "Journey"
+    },
+    {
+      "start": "16:15",
+      "end": "17:45",
+      "activity": "Study Time"
+    },
+    {
+      "start": "17:45",
+      "end": "18:15",
+      "activity": "Personal Time"
+    },
+    {
+      "start": "18:15",
+      "end": "19:15",
+      "activity": "Dinner"
+    },
+    {
+      "start": "19:15",
+      "end": "23:00",
+      "activity": "Personal Time"
+    },
+    {
+      "start": "23:00",
+      "end": "24:00",
+      "activity": "Sleep"
+    }
+  ]
+}
